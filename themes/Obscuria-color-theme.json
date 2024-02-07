@@ -24,6 +24,7 @@
 		"editorWidget.border": "#42384D",
 		"editor.selectionBackground": "#382442b0",
 		"editor.inactiveSelectionBackground": "#38244262",
+		"editor.lineHighlightBorder": "#42384d50",
 		"input.background": "#24232A",
 		"inputValidation.errorBackground": "#4c1a1ae8",
 		"inputValidation.errorBorder": "#6A2424",
