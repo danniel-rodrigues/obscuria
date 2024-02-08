@@ -25,6 +25,8 @@
 		"editor.selectionBackground": "#382442d3",
 		"editor.inactiveSelectionBackground": "#38244262",
 		"editor.lineHighlightBorder": "#42384d50",
+		"editorIndentGuide.background1": "#26202C",
+		"editorIndentGuide.activeBackground1": "#574A64",
 		"input.background": "#24232A",
 		"inputValidation.errorBackground": "#4c1a1ae8",
 		"inputValidation.errorBorder": "#6A2424",
@@ -77,7 +79,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#665D6F"
 			}
 		},
 		{
@@ -137,7 +139,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#9E9E9E"
 			}
 		},
 		{
@@ -148,7 +150,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#DA4E4E"
 			}
 		},
 		{
@@ -196,7 +198,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#57A45A"
 			}
 		},
 		{
@@ -250,7 +252,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#A1A6D3"
 			}
 		},
 		{
@@ -300,18 +302,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "HTML Attributes",
-			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
-			],
-			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#00B2C2"
 			}
 		},
 		{
@@ -333,12 +325,42 @@
 			}
 		},
 		{
+			"name": "CSS constant",
+			"scope": [
+				"suport.constant",
+				"support.constant.font-name.css"
+			],
+			"settings": {
+				"foreground": "#CDB87A"
+			}
+		},
+		{
 			"name": "Inserted",
 			"scope": [
 				"markup.inserted"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "HTML attribute value",
+			"scope": [
+				"string.quoted.double.html",
+				"meta.attribute.name.html",
+				"meta.tag.metadata.meta.void.html",
+			],
+			"settings": {
+				"foreground": "#C087C9"
+			}
+		},
+		{
+			"name": "HTML plain text",
+			"scope": [
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
 			}
 		},
 		{
