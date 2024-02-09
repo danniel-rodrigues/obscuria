@@ -127,19 +127,40 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#9E9E9E"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#C2C2C2",
+			}
+		},
+		{
+			"name": "RGB and HEX colors",
+			"scope": "constant.other.color.rgb-value.hex.css",
+			"settings": {
+				"foreground": "#A2B78A",
+			}
+		},
+		{
+			"name": "HTML begin and end punctuation",
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#9E9E9E",
 			}
 		},
 		{
@@ -252,7 +273,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#A1A6D3"
+				"foreground": "#707BDB" //#A1A6D3
 			}
 		},
 		{
@@ -312,26 +333,79 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#DB5BF1"
 			}
 		},
 		{
 			"name": "CSS ID's",
 			"scope": [
-				"source.sass keyword.control"
+				"source.sass keyword.control",
+				"entity.other.attribute-name.id.css",
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#5AC318"
 			}
 		},
 		{
-			"name": "CSS constant",
+			"name": "CSS font-name",
 			"scope": [
 				"suport.constant",
 				"support.constant.font-name.css"
 			],
 			"settings": {
 				"foreground": "#CDB87A"
+			}
+		},
+		{
+			"name": "CSS numeric and unit constant",
+			"scope": [
+				"constant.numeric.css",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#A2B78A",
+			}
+		},
+		{
+			"name": "CSS support property-value",
+			"scope": [
+				"support.constant.property-value.css",
+				"meta.property-value.css"
+			],
+			"settings": {
+				"foreground": "#AD4E00"
+			}
+		},
+		{
+			"name": "CSS keyframe header",
+			"scope": [
+				"meta.at-rule.keyframes.header.css",
+				"keyword.control",
+				"punctuation.definition.keyword.css"
+			],
+			"settings": {
+				"foreground": "#CD1818",
+			}
+		},
+		{
+			"name": "CSS keyframe and media variable parameter",
+			"scope": [
+				"variable.parameter.keyframe-list.css",
+				"support.constant.media.css",
+				"support.type.property-name.media.css"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "CSS keyframe body",
+			"scope": [
+				"entity.other.keyframe-offset.css",
+				"meta.at-rule.keyframes.body.css"
+			],
+			"settings": {
+				"foreground": "#F57F17",
 			}
 		},
 		{
