@@ -148,7 +148,10 @@
 		},
 		{
 			"name": "RGB and HEX colors",
-			"scope": "constant.other.color.rgb-value.hex.css",
+			"scope": [
+				"punctuation.definition.constant.css",
+				"constant.other.color.rgb-value.hex.css"
+			],
 			"settings": {
 				"foreground": "#A2B78A",
 			}
@@ -339,8 +342,8 @@
 		{
 			"name": "CSS ID's",
 			"scope": [
-				"source.sass keyword.control",
 				"entity.other.attribute-name.id.css",
+				"source.sass keyword.control"
 			],
 			"settings": {
 				"foreground": "#5AC318"
@@ -373,7 +376,7 @@
 				"meta.property-value.css"
 			],
 			"settings": {
-				"foreground": "#AD4E00"
+				"foreground": "#C25700"
 			}
 		},
 		{
@@ -406,6 +409,33 @@
 			],
 			"settings": {
 				"foreground": "#F57F17",
+			}
+		},
+		{
+			"name": "CSS constant color w3c",
+			"scope": "support.constant.color.w3c-standard-color-name.css",
+			"settings": {
+				"foreground": "#A2B78A"
+			}
+		},
+		{
+			"name": "CSS string quoted",
+			"scope": [
+				"string.quoted.double.css",
+				"string.quoted.single.css"
+			],
+			"settings": {
+				"foreground": "#CDB87A"
+			}
+		},
+		{
+			"name": "CSS variable",
+			"scope":[
+				"variable.css",
+				"variable.argument.css"
+			],
+			"settings": {
+				"foreground": "#CCCCCC"
 			}
 		},
 		{
