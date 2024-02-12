@@ -451,6 +451,7 @@
 			"name": "HTML attribute value",
 			"scope": [
 				"string.quoted.double.html",
+				"string.quoted.single.html",
 				"meta.attribute.name.html",
 				"meta.tag.metadata.meta.void.html",
 			],
