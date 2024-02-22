@@ -4,7 +4,7 @@
   "description": "Deep shades of black, gray and touches of dark blue create a mysterious and sophisticated palette, inspired by the elegance of Obsidian.",
   "version": "0.0.1",
   "author": "Daniel Rodrigues",
-  "publisher": "Obscuria Team",
+  "publisher": "ObscuriaTeam",
   "engines": {
     "vscode": "^1.86.0"
   },
