@@ -89,7 +89,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -119,7 +119,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FFA000"
 			}
 		},
 		{
@@ -222,7 +222,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#57A45A"
+				"foreground": "#A2B78A"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#CDB87A"
 			}
 		},
 		{
@@ -436,6 +436,85 @@
 			],
 			"settings": {
 				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"name": "JS var expression",
+			"scope": [
+				"keyword.operator.assignment.js",
+				"meta.var.expr.js"
+			],
+			"settings": {
+				"foreground": "#CCCCCC",
+			}
+		},
+		{
+			"name": "JS operators",
+			"scope": [
+				"keyword.operator.relational.js",
+				"keyword.operator.increment.js",
+				"keyword.operator.decrement.js",
+				"keyword.operator.assignment.compound.js",
+				"keyword.operator.comparison.js",
+				"keyword.operator.bitwise.js",
+				"keyword.operator.logical.js"
+			],
+			"settings": {
+				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"name": "JS function",
+			"scope": "storage.type.function.js",
+			"settings": {
+				"foreground": "#FB13E8"
+			}
+		},
+		{
+			"name": "JS function name",
+			"scope": [
+				"entity.name.function.js",
+				"meta.definition.function.js",
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#00B2C2"
+			}
+		},
+		{
+			"name": "JS boolean constant",
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.false.js"
+			],
+			"settings": {
+				"foreground": "#C25700"
+			}
+		},
+		{
+			"name": "JS conditionals and loops",
+			"scope": [
+				"keyword.control.conditional.js",
+				"keyword.control.loop.js",
+				"keyword.control.switch.js",
+				"keyword.control.trycatch.js"
+			],
+			"settings": {
+				"foreground": "#F50053"
+			}
+		},
+		{
+			"name": "JS return",
+			"scope": "keyword.control.flow.js",
+			"settings": {
+				"foreground":"#E01A1A",
+			}
+		},
+		{
+			"name": "JS parameters",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#A3C37E",
 			}
 		},
 		{
