@@ -1,16 +1,26 @@
-# obscuria README
+# OBSCURIA DARK THEME
+This color theme is a visual expression inspired by the magnificent Obsidian, a volcanic stone that exudes mystery and elegance. Deep nuances of black, gray and subtle touches of dark blue are combined to create an engaging and sophisticated palette.
 
-## Working with Markdown
+The intense black represents the solid base of Obsidian, emanating a feeling of mystery and serenity. Gray, in turn, adds nuances and depth, reflecting the natural variations found in the stone. The touch of dark blue evokes the mysterious energy often seen in Obsidian, adding an element of tranquility and serenity to the palette.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+This color combination creates an environment that conveys elegance, sophistication and a touch of mystery.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
+## SCREENSHOTS
 
-## For more information
+**HTML5 example**
+![HTML5 example](/images/html-sample.png)
+<br>
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+**CSS3 example**
+![CSS3 example](/images/css-sample.png)
+<br>
 
-**Enjoy!**
+**Javascript example**
+![Javascript example](/images/js-sample.png)
+
+---
+
+### Did you like it?
+
+If you were enchanted by the **Obscuria** theme, share this unique experience! Your appreciation is essential to support and boost the project. Let us know what you think by leaving a review, as your opinion is valuable to us.
