@@ -2,7 +2,7 @@
   "name": "obscuria-theme",
   "displayName": "Obscuria",
   "description": "Deep shades of black, gray and touches of dark blue create a mysterious and sophisticated palette, inspired by the elegance of Obsidian.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Daniel Rodrigues",
   "publisher": "obscuria-team",
   "engines": {
@@ -15,9 +15,12 @@
   "categories": [
     "Themes"
   ],
-  "keywords": ["dark", "color", "theme"],
+  "keywords": [
+    "dark",
+    "color",
+    "theme"
+  ],
   "icon": "/images/obscuria-icon.png",
-
   "contributes": {
     "themes": [
       {
