@@ -1,9 +1,12 @@
 # **OBSCURIA DARK THEME**
-This color theme is a visual expression inspired by the magnificent Obsidian, a volcanic stone that exudes mystery and elegance. Deep nuances of black, gray and subtle touches of dark blue are combined to create an engaging and sophisticated palette.
+Este tema de cores é uma expressão visual inspirada na magnífica Obsidiana, uma pedra vulcânica que exala mistério e elegância. Nuances profundas de preto, cinza e toques sutis de azul escuro são combinadas para criar uma paleta envolvente e sofisticada.
 
-The intense black represents the solid base of Obsidian, emanating a feeling of mystery and serenity. Gray, in turn, adds nuances and depth, reflecting the natural variations found in the stone. The touch of dark blue evokes the mysterious energy often seen in Obsidian, adding an element of tranquility and serenity to the palette.
+Nossa extensão é **genuinamente brasileira**. Assim como a exuberante Amazônia, nossa extensão floresce com a beleza de sua interface.
 
-This color combination creates an environment that conveys elegance, sophistication and a touch of mystery.
+---
+## Gostou desse tema?
+
+Se você se encantou pelo tema **Obscuria**, compartilhe essa experiência única! O seu agradecimento é essencial para apoiar e impulsionar o projeto. Deixe-nos saber o que você pensa deixando um comentário.
 
 ---
 ## **SCREENSHOTS**
@@ -18,9 +21,3 @@ This color combination creates an environment that conveys elegance, sophisticat
 
 **Javascript example**
 ![Javascript example](/images/js-sample.png)
-
----
-
-## **Did you like it?**
-
-If you were enchanted by the **Obscuria** theme, share this unique experience! Your appreciation is essential to support and boost the project. Let us know what you think by leaving a review, as your opinion is valuable to us.

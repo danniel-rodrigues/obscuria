@@ -1,25 +1,22 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
-The format is based on [Keep a Changelog], and this project adheres to [Semantic Versioning].
+Esse projeto segue o [Semantic Versioning].
 
-## [Unreleased]
+## [1.0.0] - 2024-05-01
+### Changed
+
+- Alteração de ícone e ajustes no README
 
 ## [0.1.0] - 2024-02-22
 ### Changed
 
-- Improvements applied to the Changelog file structure
+- Melhorias aplicadas à estrutura do arquivo Changelog
 
 ## [0.0.1] - 2024-02-22
 
 - initial release
 
 <!-- Links -->
-[keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
-
-<!-- Versions -->
-[unreleased]: https://github.com/danniel-rodrigues/obscuria/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/danniel-rodrigues/obscuria/compare/v0.0.1...v0.1.0
-[0.0.1]: https://github.com/danniel-rodrigues/obscuria/releases/tag/v0.0.1
