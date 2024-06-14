@@ -547,6 +547,34 @@
 			}
 		},
 
+		// LANGUAGE BUILT-INS ==============================================
+		{
+			"name": "Language Built-ins",
+			"scope": "support",
+			"settings": {
+				"foreground": "#73E4FD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Built-in magic functions and constants",
+			"scope": [
+				"support.function.magic",
+				"support.variable",
+				"variable.other.predefined"
+			],
+			"settings": {
+				"foreground": "#A164F6"
+			}
+		},
+		{
+			"name": "Built-in functions / properties",
+			"scope": [
+				"support.function",
+				"support.type.property-name"
+			], "settings": {}
+		},
+
 		// STRINGS =========================================================
 		{
 			"name": "Strings",
