@@ -652,6 +652,38 @@
 			}
 		},
 
+		// SERIALIZABLE / CONFIG LANGUAGES =================================
+		{
+			"name": "Keys (serializable languages)",
+			"scope": [
+				"entity.name.function.target.makefile",
+				"entity.name.section.toml",
+				"entity.name.tag.yaml",
+				"variable.other.key.toml"
+			],
+			"settings": {
+				"foreground": "#73E4FD"
+			}
+		},
+		{
+			"name": "Dates / timestamps (serializable languages)",
+			"scope": [
+				"constant.other.date",
+				"constant.other.timestamp"
+			],
+			"settings": {
+				"foreground": "#FFB86C"
+			}
+		},
+		{
+			"name": "YAML aliases",
+			"scope": "variable.other.alias.yaml",
+			"settings": {
+				"foreground": "#5591C9",
+				"fontStyle": "italic underline"
+			}
+		},
+
 		// STRINGS =========================================================
 		{
 			"name": "Strings",
