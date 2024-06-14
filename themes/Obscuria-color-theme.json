@@ -415,6 +415,29 @@
 			}
 		},
 
+		// CONSTANTS =============================================================
+		{
+			"name": "Constants",
+			"scope": [
+				"constant",
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#A164F6"
+			}
+		},
+		{
+			"name": "Constant escape sequences",
+			"scope": [
+				"constant.character.escape",
+				"constant.character.string.escape",
+				"constant.regexp"
+			],
+			"settings": {
+				"foreground": "#C955B4"
+			}
+		},
+
 		// ENTITIES ==============================================================
 		{
 			"name": "HTML tags",
