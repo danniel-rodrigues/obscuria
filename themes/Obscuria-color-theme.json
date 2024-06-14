@@ -114,6 +114,259 @@
 		"tab.border": "#42384D",
 	},
 	"tokenColors": [
+		// GENERAL ==============================================================
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "header",
+			"settings": {
+				"foreground": "#A164F6"
+			}
+		},
+
+		// DIFFS ================================================================
+		{
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"foreground": "#76728D"
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#5591C9"
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#DC4141"
+			}
+		},
+		{
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#FFB86C"
+			}
+		},
+		{
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#DC4141",
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#EDEDDE",
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"scope": "entity.name.filename",
+			"settings": {
+				"foreground": "#aa9a60"
+			}
+		},
+		{
+			"scope": "markup.error",
+			"settings": {
+				"foreground": "#DC4141"
+			}
+		},
+
+		// MARKDOWN / RST / PROSE
+		{
+			"name": "Underlined markup",
+			"scope": "markup.underline",
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Bold markup",
+			"scope": "markup.bold",
+			"settings": {
+				"foreground": "#FFB86C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup headings",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#A164F6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup italic",
+			"scope": "markup.italic",
+			"settings": {
+				"foreground": "#aa9a60",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bullets, lists (prose)",
+			"scope": [
+				"beginning.punctuation.definition.list.markdown",
+				"beginning.punctuation.definition.quote.markdown",
+				"punctuation.definition.link.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#8BE9FD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Inline code (prose)",
+			"scope": [
+				"markup.inline.raw",
+				"markup.raw.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#5591C9"
+			}
+		},
+		{
+			"name": "Links (prose)",
+			"scope": [
+				"markup.underline.link",
+				"markup.underline.link.image"
+			],
+			"settings": {
+				"foreground": "#8BE9FD"
+			}
+		},
+		{
+			"name": "Link text, image alt text (prose)",
+			"scope": [
+				"meta.link.reference.def.restructuredtext",
+    			"punctuation.definition.directive.restructuredtext",
+    			"tring.other.link.description",
+				"string.other.link.title"
+			],
+			"settings": {
+				"foreground": "#C955B4"
+			}
+		},
+		{
+			"name": "Blockquotes (prose)",
+			"scope": [
+				"entity.name.directive.restructuredtext",
+				"markup.quote"
+			],
+			"settings": {
+				"foreground": "#AA9A60",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "horizontal rule (prose)",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#76728D"
+			}
+		},
+		{
+			"name": "Code blocks",
+			"scope": [
+				"fenced_code.block.language",
+				"markup.raw.inner.restructuredtext",
+				"markup.fenced_code.block.markdown punctuation.definition.markdown"
+			],
+			"settings": {
+				"foreground": "#5591C9"
+			}
+		},
+		{
+			"name": "Prose constants",
+			"scope": "punctuation.definition.constant.restructuredtext",
+			"settings": {
+				"foreground": "#A164F6"
+			}
+		},
+		{
+			"name": "Braces in markdown headings",
+			"scope": [
+				"markup.heading.markdown punctuation.definition.string.begin",
+				"markup.heading.markdown punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#A164F6"
+			}
+		},
+		{
+			"name": "Braces in markdown paragraphs",
+			"scope": [
+				"meta.paragraph.markdown punctuation.definition.string.begin",
+				"meta.paragraph.markdown punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#EDEDDE"
+			}
+		},
+		{
+			"name": "Braces in markdown blockquotes",
+			"scope": [
+				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.begin",
+				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#AA9A60"
+			}
+		},
+
+		// CLASSES ==============================================================
+		{
+			"name": "User-defined class names",
+			"scope": [
+				"entity.name.type.class",
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#8BE9FD"
+			}
+		},
+		{
+			"name": "this, super, self, etc.",
+			"scope": [
+				"keyword.expressions-and-types.swift",
+				"keyword.other.this",
+				"variable.language",
+				"variable.language punctuation.definition.variable.php",
+				"variable.other.readwrite.instance.ruby",
+				"variable.parameter.function.language.special"
+			],
+			"settings": {
+				"foreground": "#A164F6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Inherited classes",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#8BE9FD",
+				"fontStyle": "italic"
+			}
+		},
+
 		// COMMENTS =============================================================
 		{
 			"name": "Comment",
@@ -125,6 +378,40 @@
 			],
 			"settings": {
 				"foreground": "#76728D"
+			}
+		},
+		{
+			"name": "JSDoc-style keywords",
+			"scope": [
+				"comment keyword.codetag.notation",
+				"comment.block.documentation keyword",
+				"comment.block.documentation storage.type.class"
+			],
+			"settings": {
+				"foreground": "#C955B4"
+			}
+		},
+		{
+			"name": "JSDoc-style types",
+			"scope": "comment.block.documentation entity.name.type",
+			"settings": {
+				"foreground": "#8BE9FD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSDoc-style type brackets",
+			"scope": "comment.block.documentation entity.name.type punctuation.definition.bracket",
+			"settings": {
+				"foreground": "#8BE9FD"
+			}
+		},
+		{
+			"name": "JSDoc-style comment parameters",
+			"scope": "comment.block.documentation variable",
+			"settings": {
+				"foreground": "#FFB86C",
+				"fontStyle": "italic"
 			}
 		},
 
@@ -164,7 +451,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#C2B070"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
@@ -174,7 +461,7 @@
 				"punctuation.definition.string.end"
 			],
 			"settings": {
-				"foreground": "#C2B070"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
@@ -184,7 +471,7 @@
 				"punctuation.support.type.property-name.end"
 			],
 			"settings": {
-				"foreground": "#C2B070"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
