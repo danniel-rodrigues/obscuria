@@ -229,7 +229,7 @@
 				"punctuation.definition.link.restructuredtext"
 			],
 			"settings": {
-				"foreground": "#8BE9FD",
+				"foreground": "#73E4FD",
 				"fontStyle": "bold"
 			}
 		},
@@ -250,7 +250,7 @@
 				"markup.underline.link.image"
 			],
 			"settings": {
-				"foreground": "#8BE9FD"
+				"foreground": "#73E4FD"
 			}
 		},
 		{
@@ -340,7 +340,7 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#8BE9FD"
+				"foreground": "#73E4FD"
 			}
 		},
 		{
@@ -362,7 +362,7 @@
 			"name": "Inherited classes",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#8BE9FD",
+				"foreground": "#73E4FD",
 				"fontStyle": "italic"
 			}
 		},
@@ -395,7 +395,7 @@
 			"name": "JSDoc-style types",
 			"scope": "comment.block.documentation entity.name.type",
 			"settings": {
-				"foreground": "#8BE9FD",
+				"foreground": "#73E4FD",
 				"fontStyle": "italic"
 			}
 		},
@@ -403,7 +403,7 @@
 			"name": "JSDoc-style type brackets",
 			"scope": "comment.block.documentation entity.name.type punctuation.definition.bracket",
 			"settings": {
-				"foreground": "#8BE9FD"
+				"foreground": "#73E4FD"
 			}
 		},
 		{
@@ -462,6 +462,57 @@
 			"scope": [
 				"entity.other.attribute-name"
 			],
+			"settings": {
+				"foreground": "#5591C9"
+			}
+		},
+
+		// FUNCTIONS/METHODS ===============================================
+		{
+			"name": "Function names",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.object",
+				"meta.function-call.php",
+				"meta.function-call.static",
+				"meta.method-call.java meta.method",
+				"meta.method.groovy",
+				"support.function.any-method.lua",
+				"keyword.operator.function.infix"
+			],
+			"settings": {
+				"foreground": "#5591C9"
+			}
+		},
+		{
+			"name": "Function parameters",
+			"scope": [
+				"entity.name.variable.parameter",
+				"meta.at-rule.function variable",
+				"meta.at-rule.mixin variable",
+				"meta.function.arguments variable.other.php",
+				"meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#B98127",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"meta.decorator variable.other.readwrite",
+				"meta.decorator variable.other.property"
+			],
+			"settings": {
+				"foreground": "#5591C9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Decorator Objects",
+			"scope": "meta.decorator variable.other.object",
 			"settings": {
 				"foreground": "#5591C9"
 			}
