@@ -518,6 +518,35 @@
 			}
 		},
 
+		//KEYWORDS =========================================================
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"punctuation.definition.keyword"
+			],
+			"settings": {
+				"foreground": "#C955B4"
+			}
+		},
+		{
+			"name": "Keyword 'new'",
+			"scope": [
+				"keyword.control.new",
+				"keyword.operator.new"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Generic selectors (CSS/SCSS/Less/Stylus)",
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#C955B4"
+			}
+		},
+
 		// STRINGS =========================================================
 		{
 			"name": "Strings",
