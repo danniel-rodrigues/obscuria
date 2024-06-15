@@ -45,8 +45,8 @@
 		// Editor Colors
 		"editor.background": "#1A191F",
 		"editor.foreground": "#C8C8C8",
-		"editorLineNumber.foreground": "#5C5464",
-		"editorLineNumber.activeForeground": "#ffffff",
+		"editorLineNumber.foreground": "#5A576B",
+		"editorLineNumber.activeForeground": "#C3C1CD",
 		"editorGroupHeader.tabsBackground": "#1D1B23",
 		"editorWidget.background": "#1A191F",
 		"editorWidget.border": "#42384D",
