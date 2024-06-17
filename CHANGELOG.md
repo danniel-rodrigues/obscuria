@@ -4,6 +4,11 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
 Esse projeto segue o [Semantic Versioning].
 
+## [2.0.0] - 2024-06-17
+### Changed
+
+- Padronização visual através de uma paleta de cores selecionada para proporcionar um contraste ideal garantindo melhor acessibilidade e legibilidade do código e da interface, reduzindo a vadiga ocular.
+
 ## [1.0.0] - 2024-05-01
 ### Changed
 
