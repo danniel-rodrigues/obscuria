@@ -4,7 +4,7 @@
 	"semanticHighlighting": true,
 	"colors": {
 		// Base Colors
-		"focusBorder": "#665D6F",
+		"focusBorder": "#3B3540",
 		"foreground": "#C8C8C8",
 		"errorForeground": "#ff5555",
 		
@@ -45,15 +45,29 @@
 		// Editor Colors
 		"editor.background": "#1A191F",
 		"editor.foreground": "#C8C8C8",
+
 		"editorLineNumber.foreground": "#5A576B",
 		"editorLineNumber.activeForeground": "#C3C1CD",
+
 		"editorGroupHeader.tabsBackground": "#1D1B23",
+
 		"editorWidget.background": "#1A191F",
 		"editorWidget.border": "#42384D",
+
 		"editor.selectionBackground": "#2C2E3A",
+
 		"editor.lineHighlightBorder": "#2C2E3A",
-		"editorIndentGuide.background1": "#26202C",
-		"editorIndentGuide.activeBackground1": "#574A64",
+		
+		"editorIndentGuide.background1": "#2E2735",
+		"editorIndentGuide.activeBackground1": "#5E506C",
+
+		"editorBracketHighlight.foreground1": "#C8C8C8",
+		"editorBracketHighlight.foreground2": "#C955B4",
+		"editorBracketHighlight.foreground3": "#41C3BD",
+		"editorBracketHighlight.foreground4": "#448CD0",
+		"editorBracketHighlight.foreground5": "#A164F6",
+		"editorBracketHighlight.foreground6": "#FFB86C",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#DC4141",
 
 		// List Colors
 		"list.activeSelectionBackground": "#631c56",
@@ -62,7 +76,7 @@
 		"list.hoverBackground": "#26252D",
 
 		// Menu Colors
-		"menu.background": "#1A191F",
+		"menu.background": "#212028",
 		"menu.foreground": "#CCCCCC",
 		"menu.selectionForeground": "#C8C8C8",
 
@@ -146,7 +160,7 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 		{
@@ -239,7 +253,7 @@
 				"markup.raw.restructuredtext"
 			],
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 		{
@@ -271,7 +285,7 @@
 				"markup.quote"
 			],
 			"settings": {
-				"foreground": "#AA9A60",
+				"foreground": "#aa9a60",
 				"fontStyle": "italic"
 			}
 		},
@@ -290,7 +304,7 @@
 				"markup.fenced_code.block.markdown punctuation.definition.markdown"
 			],
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 		{
@@ -327,7 +341,7 @@
 				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end"
 			],
 			"settings": {
-				"foreground": "#AA9A60"
+				"foreground": "#aa9a60"
 			}
 		},
 
@@ -462,7 +476,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 
@@ -480,7 +494,7 @@
 				"keyword.operator.function.infix"
 			],
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 		{
@@ -505,7 +519,7 @@
 				"meta.decorator variable.other.property"
 			],
 			"settings": {
-				"foreground": "#5591C9",
+				"foreground": "#448CD0",
 				"fontStyle": "italic"
 			}
 		},
@@ -513,7 +527,7 @@
 			"name": "Decorator Objects",
 			"scope": "meta.decorator variable.other.object",
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 
@@ -678,7 +692,7 @@
 			"name": "YAML aliases",
 			"scope": "variable.other.alias.yaml",
 			"settings": {
-				"foreground": "#5591C9",
+				"foreground": "#448CD0",
 				"fontStyle": "italic underline"
 			}
 		},
@@ -752,7 +766,7 @@
 				"constant.character.escape.backslash.regexp"
 			],
 			"settings": {
-				"foreground": "#AA9A60"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
@@ -800,7 +814,7 @@
 			"name": "Positive lookaheads",
 			"scope": "meta.assertion.look-ahead.regexp",
 			"settings": {
-				"foreground": "#5591C9"
+				"foreground": "#448CD0"
 			}
 		},
 
@@ -893,7 +907,7 @@
 			"name": "GraphQL keys",
 			"scope": "meta.selectionset.graphql variable",
 			"settings": {
-				"foreground": "#AA9A60"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
@@ -954,7 +968,7 @@
 			"name": "Makefile prerequisite names",
 			"scope": "meta.scope.prerequisites.makefile",
 			"settings": {
-				"foreground": "#AA9A60"
+				"foreground": "#aa9a60"
 			}
 		},
 		{
@@ -986,7 +1000,7 @@
 			"name": "Log file warning",
 			"scope": "log.warning",
 			"settings": {
-				"foreground": "#AA9A60",
+				"foreground": "#aa9a60",
 				"fontStyle": "bold"
 			}
 		}
